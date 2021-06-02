@@ -7,8 +7,8 @@
     <packaging>jar</packaging>
 
     <groupId>dev.lone</groupId>
-    <artifactId>api-itemsadder</artifactId>
-    <version>2.3.8</version>
+    <artifactId>api-scratchit</artifactId>
+    <version>1.1.5</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,7 +19,7 @@
     <!-- A reference to our Issues Tracker -->
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/LoneDev6/ItemsAdder/issues</url>
+        <url>https://github.com/PluginBugs/Issues-ScratchIt/issues</url>
     </issueManagement>
 
     <repositories>
@@ -33,7 +33,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/LoneDev6/API-ItemsAdder</url>
+            <url>https://maven.pkg.github.com/LoneDev6/API-ScratchIt</url>
         </repository>
     </distributionManagement>
 
