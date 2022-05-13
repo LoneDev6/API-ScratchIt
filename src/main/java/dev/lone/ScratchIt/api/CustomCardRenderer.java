@@ -48,6 +48,37 @@ public class CustomCardRenderer
     }
 
     /**
+     * Sets a pixel on the map (doesn't support transparency for now)
+     * @param x
+     * @param y
+     * @param rgb
+     */
+    public void setPixel(int x, int y, byte rgb)
+    {
+        throw new NotActuallyScratchItException();
+    }
+
+    /**
+     * Sets a pixel on the map (doesn't support transparency for now)
+     * @param x
+     * @param y
+     * @param rgb
+     */
+    public byte setPixel(int x, int y, int rgb)
+    {
+        throw new NotActuallyScratchItException();
+    }
+
+    /**
+     * Sets a pixel on the map (doesn't support transparency for now)
+     * @param rgb
+     */
+    public void setPixels(int[] rgb)
+    {
+        throw new NotActuallyScratchItException();
+    }
+
+    /**
      * Start the rendering of this card to the player.
      */
     public void start()
